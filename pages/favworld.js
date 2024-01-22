@@ -8,6 +8,7 @@ import Image from 'next/image';
 // import RightBlog from '../components/rightbloglist'
  
  
+ 
 
 export default function Home({ allPostsData }) {
   return (
@@ -66,66 +67,128 @@ export default function Home({ allPostsData }) {
      
       </div>
       <div className={utilStyles.myabout}> 
+
       <header>
-        <h1>Mohd Khan - Front End Developer</h1>
+        <h1>Mohd's Favorite World</h1>
     </header>
 
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality.</p>
-    </section>
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality</p>
-    </section>
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality.</p>
-    </section>
+    <section  className='originalme'>
+        
+        <p>This one is going to be my favorite places, platform , persons , books , foods or other things.</p>
+        <p>Which taught me so much and never forget them and wanna share my choice why they are my favorites.</p>
 
-    <section >
-    
-        <div className={utilStyles.somuchInterests}>
-        <h2>Interests:</h2>
-        <div className={utilStyles.somuchInterestss}>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
+        <div  className={utilStyles.myfavchoices}>
+         <div className={utilStyles.myfavchoicesC1}>
+
+
+        <div >
+    <Image
+        className={utilStyles.image}
+        src="/images/avatar1.png"
+        width={150}
+        height={150}
+        alt="Picture of the author" 
+      />
+    <span style={{ fontSize :'1.5rem' }}>1.</span> This is the first paragraph about the first image. You can provide some introductory information or context here.
+  </div>
  
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
+  <div>
+  <Image
+        className={utilStyles.image}
+        src="/images/avatar2.png"
+        width={150}
+        height={150}
+        alt="Picture of the author" 
+      />
+     <span style={{ fontSize :'1.5rem' }}>2.</span>This is the first paragraph about the first image. You can provide some introductory information or context here.
+  </div>
+
  
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
+  <div>
+  <Image
+        className={utilStyles.image}
+        src="/images/avatar3.png"
+        width={150}
+        height={150}
+        alt="Picture of the author" 
+      />
+     <span style={{ fontSize :'1.5rem' }}>3.</span>This is the first paragraph about the first image. You can provide some introductory information or context here.
+  </div>
+
+
  
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
+
+    <div>
+  <Image
+        className={utilStyles.image}
+        src="/images/avatar4.png"
+        width={150}
+        height={150}
+        alt="Picture of the author" 
+      />
+        <span style={{ fontSize :'1.5rem' }}>4.</span>This is the first paragraph about the first image. You can provide some introductory information or context here.
+  </div>
+  </div>
+  <div className={utilStyles.myfavchoicesC2}>
+
+  <div>
   
-        </ul>
-       
-        </div>
-        </div>
-    </section>
+  <Image
+      className={utilStyles.image}
+      src="/images/avatar1.png"
+      width={150}
+      height={150}
+      alt="Picture of the author" 
+    />
+   <span style={{ fontSize :'1.5rem' }}>5.</span>This is the first paragraph about the first image. You can provide some introductory information or context here.
+</div>
 
-    <section>
-        <p class="dream"><b>My Dream: </b>To become a self-reliant web developer.</p>
-    </section></div>
+<div>
+<Image
+      className={utilStyles.image}
+      src="/images/avatar2.png"
+      width={150}
+      height={150}
+      alt="Picture of the author" 
+    />
+     <span style={{ fontSize :'1.5rem' }}>6.</span>This is the first paragraph about the first image. You can provide some introductory information or context here.
+</div>
+
+
+<div>
+<Image
+      className={utilStyles.image}
+      src="/images/avatar3.png"
+      width={150}
+      height={150}
+      alt="Picture of the author" 
+    />
+   <span style={{ fontSize :'1.5rem' }}>7.</span>This is the third paragraph discussing the third image. Provide relevant information or context associated with this image.
+</div>
+
+
+<div>
+<Image
+      className={utilStyles.image}
+      src="/images/avatar4.png"
+      width={150}
+      height={150}
+      alt="Picture of the author" 
+    />
+     <span style={{ fontSize :'1.5rem' }}>8.</span>This is the first paragraph about the first image. You can provide some introductory information or context here.
+</div>
+
+ 
+ </div>
+ 
+ </div>
+ <p>I know you will mathced your choice with mine, and the reason can be different to following particular something.</p>
+        <h5>If you wanna share your favorite world's list so you can found me easily on telegram, it's for fun conversation because conversation can be productive over scrolling reels on Instagram. <hr/> <Link href='/posts/job'>---| Mohd's Blog Demos ---|</Link></h5>
+
+ 
+ </section>
+    
+      </div>
       <div className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.blogs}`}>
       <h2 className={utilStyles.headingLg}>Blog</h2>
     <ul className={utilStyles.list}>
@@ -141,6 +204,8 @@ export default function Home({ allPostsData }) {
     </ul>
       </div>
     </div>
+
+ 
   );
 }
 

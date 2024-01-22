@@ -286,3 +286,38 @@ font-weight: 200;
   gap: 10px;
   padding:10px 20px;
 }
+
+.image {
+  width: 100px; /* Set the width of the image */
+  height: 100px; /* Maintain aspect ratio */
+  border: 2px solid #333; /* Add a border around the image */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  box-shadow: 2px 2px 5px #888; /* Add a subtle box shadow */
+  margin-right: 10px; /* Add some space to the right of the image */
+  float: left; /* Float the image to the left for text to wrap around it */
+  margin-bottom: 20px; /* Add some space between paragraphs */
+}
+ 
+.myfavchoices{
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* background-color: rgba(255, 0, 0, 0.239); */
+ gap: 10px;
+
+}
+
+.myfavchoicesC1, .myfavchoicesC2{
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* background-color: yellow; */
+  display: grid;
+grid-template-rows: 200px 200px;
+gap: 20px;
+ 
+
+}
+.myfavchoicesC1 div, .myfavchoicesC2 div{
+  background-color: #ef8b2120;
+  padding: 10px;
+}

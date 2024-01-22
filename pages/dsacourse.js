@@ -63,69 +63,40 @@ export default function Home({ allPostsData }) {
 
      
       </div>
+
+
      
       </div>
       <div className={utilStyles.myabout}> 
       <header>
-        <h1>Mohd Khan - Front End Developer</h1>
+        <h1>Mohd's DSA life</h1>
     </header>
 
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality.</p>
-    </section>
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality</p>
-    </section>
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality.</p>
-    </section>
-
-    <section >
-    
-        <div className={utilStyles.somuchInterests}>
-        <h2>Interests:</h2>
-        <div className={utilStyles.somuchInterestss}>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
- 
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
- 
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
- 
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
-  
-        </ul>
+    <section  className='originalme'>
+        
+        <p>I don't know How to crack an interview, mostly ask data structure and algorithm based queries and give you program to solve according to your logics.</p>
+        <p>That will give you chances to prove that your method is better that next person who is also coming for interview.</p>
+        <p>I researched and try to complete a course of DSA but not succeed yet, well well I am gonna start now.</p>
+        <h3>30 days with DSA tasks </h3>
+        <p>I don't know that will sufficient for me or not, but I will try give entire time for thinking about DSA related programs.</p>
+        <p>I will use -</p>
        
-        </div>
-        </div>
-    </section>
+<ul>
+  <li>LEETCODE - Tasks and solutions</li>
+  <li>GITHUB - Code sharing and version control</li>
+  <li>YOUTUBE - Insights and market value</li>
+  <li>My Fav Lang - JavaScript for problem-solving</li>
+</ul>
 
-    <section>
-        <p class="dream"><b>My Dream: </b>To become a self-reliant web developer.</p>
-    </section></div>
+<p>And I will solve SoloLearn's Code Coach also which is like interetsing to solve, and yeah I wll share my activities on Twitter(X) as per daily routine. so you can follow me there and I will follow you also to check what do you do on Twitter(X) <hr/> <Link href='/posts/job'>Found me On Twitter S/O X </Link></p>
+
+
+</section>
+      </div>
+
+
+
+
       <div className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.blogs}`}>
       <h2 className={utilStyles.headingLg}>Blog</h2>
     <ul className={utilStyles.list}>

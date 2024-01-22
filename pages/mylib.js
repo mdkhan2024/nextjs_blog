@@ -65,67 +65,64 @@ export default function Home({ allPostsData }) {
       </div>
      
       </div>
+
       <div className={utilStyles.myabout}> 
       <header>
-        <h1>Mohd Khan - Front End Developer</h1>
+        <h1>Mohd's Library of everything</h1>
     </header>
 
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality.</p>
-    </section>
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality</p>
-    </section>
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality.</p>
-    </section>
+    <section  className='originalme'>
+        
+<p>I gonna share my every favorite book, movie , series, pdf , podcast, song and social media ralted.</p>
+<p>You know what some movies become the reason to improve yourself, some book give you amazing habits which maintain a good life, series give you a detailed explanation about a specific idea, you found so many pdf online mistakely in search list which is really affective to cleared your doubt easily, you listen podcast when you wanna inspire and wanna know something from a person's life and topic so it really works as productive choice, when you listen songs randonly so suddenly one sone come which steals the attesntion of your ears and wanna listen that again to again which give you relaxed mood when you found yourself in a trapped moment, and some post on social media is really so good and you found amazing friends there which supports you to grow together. </p>
 
-    <section >
-    
-        <div className={utilStyles.somuchInterests}>
-        <h2>Interests:</h2>
-        <div className={utilStyles.somuchInterestss}>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
- 
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
- 
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
- 
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
-  
-        </ul>
-       
-        </div>
-        </div>
-    </section>
+<h3 style={{color:'#EF8C21;'}}>My favorite Books and why ?</h3>
+<Image
+        className={utilStyles.bookimage}
+        src="/images/books.png"
+        width={900}
+        height={180}
+        alt="Picture of the author" 
+      />
+<p>My reasons to liking these book because it problem solve books and probably give answers of my problems of life.</p>
 
-    <section>
-        <p class="dream"><b>My Dream: </b>To become a self-reliant web developer.</p>
-    </section></div>
+<h3 style={{color:'#EF8C21;'}}>My favorite Movie and what parts make me to watch again ?</h3>
+<Image
+        className={utilStyles.bookimage}
+        src="/images/movies.png"
+        width={900}
+        height={180}
+        alt="Picture of the author" 
+      />
+<p>Ranchodas Shamaldas Chanchad(Aamir Khan) and Christopher Gardner(Will Smith) are the reasons and the story which is so normal but touched your heart. because they succeed what they really want just need to say to oneself "ALL IZZ WELL"</p>
+
+<hr/>
+
+<p>Will write more if you love it : )</p>
+
+{/* <h3 style={{color:'#EF8C21;'}}>My favorite Series and why?</h3>
+<Image
+        className={utilStyles.bookimage}
+        src="/images/series.png"
+        width={900}
+        height={185}
+        alt="Picture of the author" 
+      />
+<p>The way professor plan for heist, The way to achive your deserving spot and choosing whatever is your passion's no matter your parents will sad in the beginning. So It encourages to youth to think smartly to make everything truth.</p> */}
+
+
+{/* <p>And I will solve SoloLearn's Code Coach also which is like interetsing to solve, and yeah I wll share my activities on Twitter(X) as per daily routine. so you can follow me there and I will follow you also to check what do you do on Twitter(X) <hr/> <Link href='/posts/job'>Found me On Twitter S/O X </Link></p> */}
+
+
+</section>
+      
+      
+      
+      </div>
+
+
+
+
       <div className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.blogs}`}>
       <h2 className={utilStyles.headingLg}>Blog</h2>
     <ul className={utilStyles.list}>

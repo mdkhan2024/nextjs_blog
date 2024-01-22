@@ -67,65 +67,29 @@ export default function Home({ allPostsData }) {
       </div>
       <div className={utilStyles.myabout}> 
       <header>
-        <h1>Mohd Khan - Front End Developer</h1>
+        <h1>Mohd's Blog</h1>
     </header>
 
     <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality.</p>
-    </section>
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality</p>
-    </section>
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality.</p>
-    </section>
+        
+        <p>I write blogs on internet which make me good to telll you others, only when I know it very well.</p>
+        <p>Like you can see my blog titles following :</p>
+        <ul>
+          <li>Why ELon Musk killed twitter' bird?</li>
+          <li>Can't we survive without AI ?</li>
+          <li>Is it really yo learn coding for a math students?</li>
+          <li>I have skills but not a academic certificate so i will get a job or not ?</li>
+          <li>How to learn coding in 30 days ?</li>
+        </ul>
 
-    <section >
+        <h5>If you love to read like this kind of blogs so you can checkout here<hr/> <Link href='/posts/job'>---| Mohd's Blog Demos ---|</Link></h5>
+    </section>
     
-        <div className={utilStyles.somuchInterests}>
-        <h2>Interests:</h2>
-        <div className={utilStyles.somuchInterestss}>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
- 
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
- 
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
- 
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
-  
-        </ul>
-       
-        </div>
-        </div>
-    </section>
+   
 
-    <section>
-        <p class="dream"><b>My Dream: </b>To become a self-reliant web developer.</p>
-    </section></div>
+   
+
+    </div>
       <div className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.blogs}`}>
       <h2 className={utilStyles.headingLg}>Blog</h2>
     <ul className={utilStyles.list}>
