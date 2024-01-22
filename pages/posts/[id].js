@@ -22,13 +22,19 @@ export default function Post({ postData }) {
             <Date dateString={postData.date} />
           </div>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+
+          <Link href='/' className={utilStyles.backtompage}>Back to main page</Link>
         </article>
 
         <div className={utilStyles.asideblogslist}> 
+        <h2 style={{color:'#6C7A05'}}>Popular Blogs</h2>
         <Link className={utilStyles.linkcolor2}  href={`/posts/opps`} >After graduation student choosing data science mostly</Link>
           <Link className={utilStyles.linkcolor2}  href={`/posts/ssg-ssr`} >Jobs fall down because of AI</Link>
           <Link className={utilStyles.linkcolor2}  href={`/posts/pre-rendering`} >AI can replace human in 22th generation</Link>
           <Link className={utilStyles.linkcolor2}  href={`/posts/job`} >World totally depending on technology</Link>
+          <Link className={utilStyles.linkcolor2}  href={`/posts/job`} >World totally depending on technology</Link>
+          <Link className={utilStyles.linkcolor2}  href={`/posts/job`} >World totally depending on technology</Link>
+          
         </div>
       </div>
     </ >
