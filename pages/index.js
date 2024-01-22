@@ -5,6 +5,7 @@ import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
 import Image from 'next/image';
+// import RightBlog from '../components/rightbloglist'
  
  
 
@@ -27,11 +28,11 @@ export default function Home({ allPostsData }) {
 
       <div className={utilStyles.mylifesideeffect}>
       <h2>Mohd's Blog </h2>
-      <Link className={utilStyles.linkcolor1}  href='www.google.com' target='_blank'>Projects</Link>
-      <Link className={utilStyles.linkcolor1}  href='www.google.com' target='_blank'>Blogs</Link>
-      <Link className={utilStyles.linkcolor1}  href='www.google.com' target='_blank'>Favorite World</Link>
-      <Link className={utilStyles.linkcolor1}  href='www.google.com' target='_blank'>DSA ClassRoom</Link>
-      <Link className={utilStyles.linkcolor1}  href='www.google.com' target='_blank'>My Library</Link>
+      <Link className={utilStyles.linkcolor1}  href='/' >Projects</Link>
+      <Link className={utilStyles.linkcolor1}  href='/' >Blogs</Link>
+      <Link className={utilStyles.linkcolor1}  href='/' >Favorite World</Link>
+      <Link className={utilStyles.linkcolor1}  href='/' >DSA ClassRoom</Link>
+      <Link className={utilStyles.linkcolor1}  href='/' >My Library</Link>
       </div>
       <div className={utilStyles.mysociallife}>
      <Link className={utilStyles.linkcolor} href='https://www.instagram.com/'> <svg width="20" height="20" viewBox="0 0 432 384" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +80,7 @@ export default function Home({ allPostsData }) {
         <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
         <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
         <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality.</p>
+        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality</p>
     </section>
     <section className='originalme'>
         <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
@@ -117,6 +118,7 @@ export default function Home({ allPostsData }) {
             <li>Reading</li>
   
         </ul>
+       
         </div>
         </div>
     </section>
@@ -125,18 +127,18 @@ export default function Home({ allPostsData }) {
         <p class="dream"><b>My Dream: </b>To become a self-reliant web developer.</p>
     </section></div>
       <div className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${utilStyles.blogs}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link className={utilStyles.blogname} href={`/posts/${id}`}>{title}</Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
+      <h2 className={utilStyles.headingLg}>Blog</h2>
+    <ul className={utilStyles.list}>
+      {allPostsData.map(({ id, date, title }) => (
+        <li className={utilStyles.listItem} key={id}>
+          <Link className={utilStyles.blogname} href={`/posts/${id}`}>{title}</Link>
+          <br />
+          <small className={utilStyles.lightText}>
+            <Date dateString={date} />
+          </small>
+        </li>
+      ))}
+    </ul>
       </div>
     </div>
   );
