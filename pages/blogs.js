@@ -83,7 +83,7 @@ export default function Home({ allPostsData }) {
           <li>How to learn coding in 30 days ?</li>
         </ul>
 
-        <h5>If you love to read like this kind of blogs so you can checkout here<hr/> <Link href='/posts/job'>---| Mohd's Blog Demos ---|</Link></h5>
+        <h5>If you love to read like this kind of blogs so you can checkout here  <Link href='/posts/job'>Mohd's Blog Demos.</Link></h5>
     </section>
     
    

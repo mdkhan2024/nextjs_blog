@@ -4,15 +4,17 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
-import Image from 'next/image';
+// import Image from 'next/image';
 // import RightBlog from '../components/rightbloglist'
+
+import Image from 'next/image';
  
  
 
 export default function Home({ allPostsData }) {
   return (
     <div className={utilStyles.container}>
-      <Head>
+  <Head>
         <title>Mohd's Life</title>
       </Head>
     
@@ -114,7 +116,7 @@ export default function Home({ allPostsData }) {
 
 {/* <p>And I will solve SoloLearn's Code Coach also which is like interetsing to solve, and yeah I wll share my activities on Twitter(X) as per daily routine. so you can follow me there and I will follow you also to check what do you do on Twitter(X) <hr/> <Link href='/posts/job'>Found me On Twitter S/O X </Link></p> */}
 
-
+/*
 </section>
       
       
@@ -149,4 +151,4 @@ export async function getStaticProps() {
       allPostsData,
     },
   };
-}
+}  

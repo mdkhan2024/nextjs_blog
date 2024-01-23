@@ -34,6 +34,7 @@ export default function Home({ allPostsData }) {
       <Link className={utilStyles.linkcolor1}  href='/favworld' >Favorite World</Link>
       <Link className={utilStyles.linkcolor1}  href='/dsacourse' >DSA ClassRoom</Link>
       <Link className={utilStyles.linkcolor1}  href='/mylib' >My Library</Link>
+     
       </div>
       <div className={utilStyles.mysociallife}>
      <Link className={utilStyles.linkcolor} href='https://www.instagram.com/'> <svg width="20" height="20" viewBox="0 0 432 384" xmlns="http://www.w3.org/2000/svg">
@@ -140,7 +141,6 @@ export default function Home({ allPostsData }) {
         </li>
       ))}
     </ul>
-
       </div>
     </div>
   );

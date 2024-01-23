@@ -90,7 +90,8 @@ export default function Home({ allPostsData }) {
         height={150}
         alt="Picture of the author" 
       />
-    <span style={{ fontSize :'1.5rem' }}>1.</span> This is the first paragraph about the first image. You can provide some introductory information or context here.
+    <span style={{ fontSize :'1.5rem' }}>1.</span> My Brothers and Mother
+I don't what they see inside of me, and give me so many chances and I failed failed because i didn't tried very well as always.
   </div>
  
   <div>
@@ -101,7 +102,8 @@ export default function Home({ allPostsData }) {
         height={150}
         alt="Picture of the author" 
       />
-     <span style={{ fontSize :'1.5rem' }}>2.</span>This is the first paragraph about the first image. You can provide some introductory information or context here.
+     <span style={{ fontSize :'1.5rem' }}>2.</span>Ankur Warriko
+     I love this man because he knows everyone and can write about them in 200+ pages book and I purchased DO Epic Shit and Get Epic Shit Done, which really make me to think about me and related to me only.
   </div>
 
  
@@ -113,7 +115,7 @@ export default function Home({ allPostsData }) {
         height={150}
         alt="Picture of the author" 
       />
-     <span style={{ fontSize :'1.5rem' }}>3.</span>This is the first paragraph about the first image. You can provide some introductory information or context here.
+     <span style={{ fontSize :'1.5rem' }}>3.</span>Dhruv Rathe is the first paragraph about the first image. You can provide some introductory information or context here.
   </div>
 
 
@@ -184,7 +186,9 @@ export default function Home({ allPostsData }) {
  
  </div>
  <p>I know you will mathced your choice with mine, and the reason can be different to following particular something.</p>
-        <h5>If you wanna share your favorite world's list so you can found me easily on telegram, it's for fun conversation because conversation can be productive over scrolling reels on Instagram. <hr/> <Link href='/posts/job'>---| Mohd's Blog Demos ---|</Link></h5>
+        {/* <h5>If you wanna share your favorite world's list so you can found me easily on telegram, it's for fun conversation because conversation can be productive over scrolling reels on Instagram. 
+          <hr/> <Link href='/posts/job'>---| Mohd's Blog Demos ---|</Link>
+          </h5> */}
 
  
  </section>

@@ -89,7 +89,10 @@ export default function Home({ allPostsData }) {
   <li>My Fav Lang - JavaScript for problem-solving</li>
 </ul>
 
-<p>And I will solve SoloLearn's Code Coach also which is like interetsing to solve, and yeah I wll share my activities on Twitter(X) as per daily routine. so you can follow me there and I will follow you also to check what do you do on Twitter(X) <hr/> <Link href='/posts/job'>Found me On Twitter S/O X </Link></p>
+<p>And I will solve SoloLearn's Code Coach also which is like interetsing to solve, and yeah I wll share my activities on Twitter(X) as per daily routine. so you can follow me there and I will follow you also to check what do you do on Twitter(X)
+
+ {/*    <hr/><Link href='/posts/job'>Found me On Twitter S/O X </Link> */}
+ </p>
 
 
 </section>
