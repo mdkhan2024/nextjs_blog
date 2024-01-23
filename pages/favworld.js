@@ -29,6 +29,7 @@ export default function Home({ allPostsData }) {
 
       <div className={utilStyles.mylifesideeffect}>
       <h2>Mohd's Life </h2>
+      <Link className={utilStyles.linkcolor1}  href='/' >Home</Link>
       <Link className={utilStyles.linkcolor1}  href='/projects' >Projects</Link>
       <Link className={utilStyles.linkcolor1}  href='/blogs' >Blogs</Link>
       <Link className={utilStyles.linkcolor1}  href='/favworld' >Favorite World</Link>
