@@ -69,61 +69,53 @@ export default function Home({ allPostsData }) {
       </div>
       <div className={utilStyles.myabout}> 
       <header>
-        <h1>Mohd Khan - Front End Developer</h1>
-    </header>
+    <h1> Mohd Khan, Front-End Maestro</h1>
+</header>
 
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality.</p>
-    </section>
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality</p>
-    </section>
-    <section className='originalme'>
-        <p>Hello! I am Moh Khan, a passionate front-end developer from India.</p>
-        <p>I love coding, writing, reading, and gaming. Mathematics is my favorite subject, and in my course, I find chemistry and other subjects somewhat useless.</p>
-        <p>My childhood was relatively shy, but after completing 12th grade, I moved to Hyderabad. This change allowed me to learn many new things.</p>
-        <p>Now, my dream is crystal clear - I want to become a web developer who can depend on oneself only. The journey is exciting, and I am determined to turn this dream into reality.</p>
-    </section>
+ <section className='originalme'>
+    <p>Hey there, fellow code wanderers! I'm Moh Khan, your passport to the digital wonderland as a front-end sorcerer hailing from the vibrant land of India.</p>
+    <p>When I'm not crafting pixel-perfect masterpieces, you can catch me diving into the realms of code, penning tales, flipping through wisdom tomes, and conquering virtual realms with a gaming controller in hand.</p>
+    <p>Back in the days, I was the quiet protagonist of my own story. But after acing the 12th grade, I embarked on a quest to Hyderabad, unlocking a trove of new skills and experiences.</p>
+    <p>My vision? To metamorphose into a self-reliant web virtuoso. The journey is thrilling, and I'm laser-focused on making this dream a tangible reality.</p>
+</section>
 
-    <section >
-    
-        <div className={utilStyles.somuchInterests}>
-        <h2>Interests:</h2>
-        <div className={utilStyles.somuchInterestss}>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
  
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
- 
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
- 
-        </ul>
-        <ul>
-            <li>Coding</li>
-            <li>Writing</li>
-            <li>Reading</li>
-  
-        </ul>
-       
-        </div>
-        </div>
-    </section>
+
+<section>
+
+    <div className={utilStyles.somuchInterests}>
+    <h2>Dive into the world of my interests:</h2>
+    <div className={utilStyles.somuchInterestss}>
+    <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+<ul>
+    <li>React</li>
+    <li>Node.js</li>
+    <li>Next.js</li>
+</ul>
+<ul>
+    <li>Bootstrap</li>
+    <li>Python</li>
+    <li>Sass</li>
+</ul>
+<ul>
+    <li>Tailwind CSS</li>
+    <li>Angular</li>
+    <li>Express</li>
+</ul>
+<ul>
+    <li>Git </li>
+    <li>Ruby</li>
+    <li>XML</li>
+</ul>
+
+    </div>
+    </div>
+</section>
+
 
     <section>
         <p class="dream"><b>My Dream: </b>To become a self-reliant web developer.</p>

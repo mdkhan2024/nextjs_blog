@@ -35,3 +35,94 @@ img {
   max-width: 100%;
   display: block;
 }
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@200;400;600;700&display=swap");
+
+ 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  flex-direction: column;
+  gap: 20px;
+
+   /* background-color: red; */
+}
+
+
+ 
+ 
+
+.slide {
+  /* width: 100%; */
+  /* height: auto; */
+  /* border-radius: 8px; */
+  border: 2px solid  #ff8400;
+  
+
+}
+
+ 
+
+.textOverlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+ 
+  width: 100%;
+ /* background-color: rgba(255, 0, 0, 0.079); */
+ 
+}
+
+.textOverlay .projectView{
+ background-color: black;
+ color: white;
+ padding: 5px 20px;
+ border-radius: 20px;
+}
+ 
+
+
+.navButton:hover {
+  background-color: #2980b9;
+}
+
+
+.buttonsDiv{
+  /* background-color: red; */
+  padding: 10px 0;
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+ justify-content: center;
+ gap: 30px;
+ /* background-color: brown; */
+ 
+}
+
+
+.navButton {
+  background-color: #ff8400;
+ 
+  color: #fff;
+  border: 2px solid #00000016;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #6C7A05;;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+  
